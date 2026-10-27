@@ -1,0 +1,6 @@
+{
+  "name": "Atividades de Caligrafia Infantil",
+  "description": "Coleção completa de caligrafia e atividades educativas em PDF para crianças. 100% responsivo para celular e computador com acesso imediato.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

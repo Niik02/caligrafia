@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+.font-dancing {
+  font-family: 'Dancing Script', cursive;
+}
+
+.font-fredoka {
+  font-family: 'Fredoka', cursive, sans-serif;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-sora {
+  font-family: 'Sora', sans-serif;
+}
+
+@keyframes pulse-btn {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+  }
+  50% {
+    transform: scale(1.03);
+    box-shadow: 0 0 0 14px rgba(34, 197, 94, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
+  }
+}
+
+.animate-pulse-btn {
+  animation: pulse-btn 2s infinite ease-in-out;
+}
+
+@keyframes pulse-pink {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 118, 162, 0.7);
+  }
+  50% {
+    transform: scale(1.03);
+    box-shadow: 0 0 0 14px rgba(255, 118, 162, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 118, 162, 0);
+  }
+}
+
+.animate-pulse-pink {
+  animation: pulse-pink 2s infinite ease-in-out;
+}
